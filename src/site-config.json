@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Onyx Irrigation",
+    "phone": "555-irr-r93",
+    "category": "irrigation",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  "design": {
+    "preset": {
+      "id": "irrigation-dark-premium",
+      "categoryGroup": "irrigation",
+      "name": "Dark Premium",
+      "recipeFile": "irrigation/dark-premium.astro",
+      "colors": {
+        "primary": "#38BDF8",
+        "primaryDark": "#2d97c6",
+        "primaryLight": "#afe5fc",
+        "secondary": "#2A2A2A",
+        "accent": "#56c7f9",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "irrigation/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Precision Irrigation for Sacramento Yards",
+      "heroSubline": "Custom solutions for the Central Valley's unique climate. Serving Elk Grove, Roseville, and Folsom with water-smart systems designed for our clay soils and extreme summers.",
+      "aboutTitle": "Rooted in Sacramento's Landscape",
+      "aboutText": [
+        "Founded in 2012, Onyx Irrigation grew from a single truck serving Midtown bungalows to a full team maintaining systems across Sacramento County. We know how 100°F summers warp PVC pipes and how winter rains test drainage solutions.",
+        "Our approach combines drought-resistant design principles with practical fixes for older neighborhoods. Whether it's fixing 1940s bungalow sprinklers or installing smart controllers in Natomas developments, we adapt to your property's needs.",
+        "We sponsor the Sacramento Tree Foundation's planting initiatives and offer free irrigation checkups during regional water conservation weeks."
+      ],
+      "valueProps": [
+        {
+          "title": "Clay Soil Specialists",
+          "description": "Our systems account for Sacramento's expansive clay soils that crack pipes and shift sprinkler heads."
+        },
+        {
+          "title": "Drought-Ready Designs",
+          "description": "We prioritize water efficiency with pressure-regulated heads and smart moisture sensors."
+        },
+        {
+          "title": "Vintage Home Experience",
+          "description": "Expert repairs for the unique irrigation challenges of Midtown's historic properties."
+        },
+        {
+          "title": "New Development Ready",
+          "description": "Full system installations tailored to HOA requirements in master-planned communities."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Irrigation Evaluation",
+      "ctaSubline": "Get a free assessment of your system's water efficiency before summer's peak heat arrives."
+    },
+    "services": [
+      {
+        "slug": "smart-irrigation-installation",
+        "name": "Smart Irrigation Installation",
+        "shortDescription": "Upgrade to weather-responsive controllers that automatically adjust watering based on Sacramento's microclimates.",
+        "description": "Sacramento's temperature swings between Midtown and Folsom demand smart irrigation solutions. We install Wi-Fi enabled controllers from Hunter and Rain Bird that sync with local weather data, reducing water waste by up to 50%. \n\nSystems include flow sensors that detect leaks in real-time - critical for preventing clay soil erosion under 100°F heat. Our team programs zones to account for shade patterns in Land Park's mature trees versus full sun exposure in newer Elk Grove developments. \n\nOptional soil moisture sensors add another layer of precision, particularly helpful for rose gardens in East Sacramento or drought-tolerant landscaping in Roseville.",
+        "process": [
+          "Step 1: Property assessment of sun exposure, soil type, and plant water needs",
+          "Step 2: Controller selection based on yard size and Wi-Fi coverage",
+          "Step 3: Professional installation with concealed wiring where possible",
+          "Step 4: Training on mobile app controls and seasonal adjustment reminders"
+        ],
+        "benefits": [
+          "30-50% water savings compared to traditional timers",
+          "Remote control via smartphone when traveling",
+          "Automatic rain delay function during winter storms",
+          "Compatible with most existing sprinkler systems"
+        ],
+        "faq": [
+          {
+            "question": "Will this work with my 1970s irrigation system?",
+            "answer": "Yes, we can retrofit smart controllers to most existing systems. The only exceptions are very old mechanical clock timers, which we'll replace with modern components during installation."
+          },
+          {
+            "question": "How does the system handle Sacramento's hard water?",
+            "answer": "Controllers include self-flushing modes to prevent mineral buildup. We also install inline filters for properties with particularly hard water common in Arden-Arcade areas."
+          }
+        ]
+      },
+      {
+        "slug": "drip-irrigation-systems",
+        "name": "Drip Irrigation Systems",
+        "shortDescription": "Targeted watering for drought-tolerant landscapes and vegetable gardens, minimizing evaporation loss.",
+        "description": "Perfect for Sacramento's Mediterranean climate, our drip systems deliver water directly to plant roots with 90% efficiency. We design different zones for native plants versus edible gardens - accounting for the Valley Oak Charter School's demonstration garden needs versus backyard tomatoes in Curtis Park. \n\nUsing pressure-compensating emitters prevents uneven watering during peak summer demand when municipal pressure fluctuates. For sloped properties common in Fair Oaks, we install anti-drain valves to prevent dry spots. \n\nAll tubing is UV-resistant to withstand our intense sunlight, with buried mainlines to protect against gopher damage prevalent in Carmichael soils. Winterization includes blowing out lines to prevent freezing damage during rare cold snaps.",
+        "process": [
+          "Step 1: Mapping plant groupings and water requirements",
+          "Step 2: Calculating optimal emitter placement and flow rates",
+          "Step 3: Installing color-coded tubing for easy maintenance",
+          "Step 4: Pressure testing and mulch integration"
+        ],
+        "benefits": [
+          "Ideal for California native plants",
+          "Reduces weed growth by avoiding surface watering",
+          "Prevents fungal diseases common in humid microclimates",
+          "Works with rainwater harvesting systems"
+        ],
+        "faq": [
+          {
+            "question": "Can drip irrigation work with my existing sprinklers?",
+            "answer": "We often create hybrid systems, keeping spray heads for lawns while converting planting beds to drip. This approach works well for Tudor-style homes in College Greens with mixed landscaping."
+          },
+          {
+            "question": "How often should the system be flushed?",
+            "answer": "We recommend annual flushing before summer peak season, included in our maintenance plans. Homes near the American River with silt-heavy water may need semi-annual service."
+          }
+        ]
+      },
+      {
+        "slug": "sprinkler-repair",
+        "name": "Sprinkler System Repair",
+        "shortDescription": "Fast fixes for common Sacramento irrigation issues from broken heads to valve leaks.",
+        "description": "Sacramento's soil movement and hard water create unique repair challenges we address daily. For Land Park homes with vintage systems, we keep hard-to-find parts for 1980s Toro gear drives. In newer Elk Grove developments, we fix common issues from installer shortcuts like shallow pipes vulnerable to heat warping. \n\nOur repair process starts with pressure testing to identify leaks in clay soil that can hide for months. We replace broken risers with heavy-duty models that withstand lawn mower impacts common in rental properties. For commercial accounts like McKinley Park's landscaping, we offer after-hours emergency repairs to prevent water waste. \n\nWinter visits include blowing out systems to prevent freeze damage - especially important for vacation homes in Granite Bay that may sit empty during cold spells.",
+        "process": [
+          "Step 1: Diagnostic testing of all zones",
+          "Step 2: Identification of pressure issues or leaks",
+          "Step 3: Repair or replacement of damaged components",
+          "Step 4: Adjustment of spray patterns to prevent overspray"
+        ],
+        "benefits": [
+          "Same-day service for most repairs",
+          "Transparent pricing with no trip fees",
+          "Legacy system expertise",
+          "Winterization services available"
+        ],
+        "faq": [
+          {
+            "question": "Why do my sprinklers keep getting stuck?",
+            "answer": "Mineral buildup from our hard water is the usual culprit. We install in-line filters and recommend annual cleanings - particularly important for homes built before 2000 with galvanized pipes."
+          },
+          {
+            "question": "Can you repair systems without digging up my lawn?",
+            "answer": "Yes, we use trenchless repair methods where possible. For major leaks under driveways in Arden-Arcade's hilly properties, we sometimes recommend rerouting lines to more accessible locations."
+          }
+        ]
+      },
+      {
+        "slug": "backflow-prevention",
+        "name": "Backflow Prevention Services",
+        "shortDescription": "Certified testing and installation to protect Sacramento's drinking water supply.",
+        "description": "California law requires annual backflow testing for all irrigation systems - a service we provide with same-day reporting to Sacramento County. Our certified technicians carry all common repair parts for RPZ and PVB devices, crucial for older homes in Boulevard Park where original assemblies may be outdated. \n\nFor new installations, we size devices appropriately based on property water pressure, which varies significantly between high-elevation areas like Sierra Oaks and low-lying Florin Road neighborhoods. All work meets Sacramento City cross-connection control requirements. \n\nWe handle the entire permitting process for commercial properties, including multi-family units in West Sacramento that face stricter compliance deadlines. Emergency replacement services available when devices fail mandatory testing.",
+        "process": [
+          "Step 1: Visual inspection of existing assembly",
+          "Step 2: Pressure differential testing",
+          "Step 3: Component repair or full replacement",
+          "Step 4: Submission of certification paperwork"
+        ],
+        "benefits": [
+          "Avoid $500+ municipal fines for non-compliance",
+          "Protect household water quality",
+          "24-hour emergency replacement service",
+          "Multi-property discount programs"
+        ],
+        "faq": [
+          {
+            "question": "How often must my backflow device be tested?",
+            "answer": "Sacramento County requires annual testing by June 30th. Commercial properties and multi-family dwellings often have quarterly requirements."
+          },
+          {
+            "question": "Why did my device fail testing?",
+            "answer": "Common causes include worn seals from our hard water or internal damage from freezing temperatures. Devices older than 15 years often need complete replacement."
+          }
+        ]
+      },
+      {
+        "slug": "irrigation-system-design",
+        "name": "Custom Irrigation Design",
+        "shortDescription": "Tailored water management plans for Sacramento's diverse properties.",
+        "description": "From historic Capitol Avenue mansions to new construction in Folsom Ranch, we create irrigation blueprints that respect each property's unique needs. Our designs account for Sacramento's 18 distinct soil types - we've mapped clay concentrations from Citrus Heights to the Delta's sandy patches. \n\nFor estates in River Park, we incorporate separate zones for heritage rose gardens versus lawn areas. In Rocklin's newer subdivisions, we design systems that meet strict HOA water-use requirements while keeping turf healthy. All plans include detailed valve maps - invaluable when future repairs are needed behind dense landscaping. \n\nWe coordinate with landscape architects on major renovations, particularly important for homes near the American River where erosion control is critical. CAD drawings available for permit submissions in Sacramento's flood-prone zones.",
+        "process": [
+          "Step 1: Topographic survey and soil analysis",
+          "Step 2: Water source evaluation (meter size, pressure)",
+          "Step 3: Plant water requirement calculations",
+          "Step 4: Hydraulic schematic creation"
+        ],
+        "benefits": [
+          "Avoid costly redesigns later",
+          "Optimize water pressure throughout system",
+          "Future expansion planning",
+          "Permit-ready documentation"
+        ],
+        "faq": [
+          {
+            "question": "Do I need a new design if I'm remodeling my landscape?",
+            "answer": "Most major changes require adjustments - we can modify existing plans or create new ones. This is especially important when adding hardscapes common in Midtown courtyard renovations."
+          },
+          {
+            "question": "How do you account for Sacramento's water restrictions?",
+            "answer": "All designs incorporate current SMUD guidelines and allow for easy adjustment as regulations change. We'll future-proof your system with smart controller compatibility."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marta K.",
+        "rating": 5,
+        "service": "Smart Irrigation Installation",
+        "text": "The team installed a Rachio controller at our East Sacramento home and completely reconfigured the zones for our mature camellias. When we had that unusual April heat wave, the system automatically increased watering just enough to prevent stress without wasting water. They even relocated a sprinkler head that was hitting our historic brick walkway.",
+        "date": "2025-04-18"
+      },
+      {
+        "name": "James R.",
+        "rating": 5,
+        "service": "Sprinkler Repair",
+        "text": "Found Onyx after three other companies couldn't fix our chronic low pressure in Arden-Arcade. Turns out we had a collapsed pipe under the driveway from soil shifting. They rerouted the line through the side yard without damaging any landscaping and reinforced the remaining pipes. System works better than when it was new.",
+        "date": "2025-05-03"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Drip Irrigation Systems",
+        "text": "Our Curtis Park community garden was wasting so much water until Onyx designed a custom drip system. They created separate zones for our citrus trees versus vegetable beds and included a filter for the sandy loam soil. First year our water bill dropped 30% while plant health improved dramatically.",
+        "date": "2025-06-22"
+      },
+      {
+        "name": "Carlos T.",
+        "rating": 5,
+        "service": "Backflow Prevention",
+        "text": "Fast response when our apartment complex in West Sac failed inspection. They replaced two RPZ devices same-day and handled all the paperwork with the city. Appreciate that they came back a week later to double-check everything at no charge when we had a pressure fluctuation.",
+        "date": "2025-03-10"
+      },
+      {
+        "name": "Sarah L.",
+        "rating": 5,
+        "service": "Custom Irrigation Design",
+        "text": "Working with Onyx on our new build in Folsom Ranch was a game-changer. Their design accounted for the weirdly shaped lot and different sun exposures. The zone layout makes so much sense - no more having to manually water certain areas like our last house. Love the detailed valve map they provided too.",
+        "date": "2025-07-15"
+      },
+      {
+        "name": "David P.",
+        "rating": 5,
+        "service": "Sprinkler Repair",
+        "text": "Fixed our vintage system in Midtown that four other companies said needed full replacement. Found original Toro parts and rebuilt the valves rather than forcing an expensive upgrade. Now our 1930s bungalow's irrigation works perfectly while maintaining its historic character.",
+        "date": "2025-08-02"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Sacramento Irrigation Services | Onyx Irrigation",
+        "description": "Expert irrigation solutions for Sacramento's unique climate and soils. Serving Elk Grove, Roseville, and Folsom with smart watering systems and repairs."
+      },
+      "about": {
+        "title": "About Onyx Irrigation | Sacramento's Water Experts",
+        "description": "Locally-owned irrigation specialists serving Sacramento County since 2012. Learn how we design systems for clay soils and extreme heat."
+      },
+      "services": {
+        "title": "Sacramento Irrigation Services | System Design & Repair",
+        "description": "Complete irrigation services including smart controllers, drip systems, backflow testing, and custom designs for Sacramento homes."
+      },
+      "contact": {
+        "title": "Contact Onyx Irrigation | Sacramento Area",
+        "description": "Schedule irrigation services in Sacramento County. Call our Elk Grove, Roseville, and Folsom irrigation experts today."
+      },
+      "reviews": {
+        "title": "Sacramento Irrigation Company Reviews | Onyx Irrigation",
+        "description": "See what Sacramento homeowners say about our irrigation installation and repair services in Elk Grove, Roseville, and Folsom."
+      },
+      "service-areas": {
+        "title": "Serving Sacramento County | Onyx Irrigation Areas",
+        "description": "Local irrigation services available in Elk Grove, Roseville, Folsom and throughout Sacramento County's unique microclimates."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 13,
+      "projectsCompleted": "850+",
+      "satisfaction": "98%",
+      "teamSize": "18"
+    },
+    "serviceAreas": [
+      {
+        "city": "Elk Grove",
+        "slug": "elk-grove-ca",
+        "state": "CA",
+        "content": "Onyx Irrigation provides expert irrigation solutions for Elk Grove's thriving master-planned communities. With hot, dry summers often exceeding 100°F, maintaining lush landscapes requires efficient, water-smart systems. Our team specializes in modern irrigation installations and smart controller upgrades tailored for newer homes (1990s-2020s). We help Elk Grove homeowners conserve water while keeping lawns and gardens vibrant through the intense Sacramento Valley heat.",
+        "localContext": "Elk Grove features master-planned neighborhoods with a focus on community amenities and green spaces.",
+        "nearbyAreas": [
+          "Sacramento",
+          "Galt",
+          "Laguna"
+        ]
+      },
+      {
+        "city": "Roseville",
+        "slug": "roseville-ca",
+        "state": "CA",
+        "content": "Roseville's planned communities deserve irrigation systems as refined as their neighborhoods. Onyx Irrigation designs drought-resistant solutions for this fast-growing city where summer temperatures regularly top 100°F. From drip irrigation for water-wise landscaping to repairing sprinkler systems in established 1990s-2000s developments, we combine local expertise with water conservation technology. Our services help Roseville residents maintain curb appeal while complying with Placer County water regulations.",
+        "localContext": "Roseville blends suburban living with extensive parks and trail systems.",
+        "nearbyAreas": [
+          "Rocklin",
+          "Lincoln",
+          "Granite Bay"
+        ]
+      },
+      {
+        "city": "Folsom",
+        "slug": "folsom-ca",
+        "state": "CA",
+        "content": "Folsom's newer planned communities benefit from Onyx Irrigation's specialized approach to landscape watering. The city's hot, dry climate demands irrigation systems that deliver precision hydration without waste. We install and maintain smart irrigation technology perfect for Folsom's modern homes, including weather-based controllers and high-efficiency nozzles. Whether serving properties near Lake Natoma or hillside developments, we help homeowners protect their investment with optimal watering strategies.",
+        "localContext": "Folsom combines historic charm with contemporary planned neighborhoods and outdoor recreation.",
+        "nearbyAreas": [
+          "El Dorado Hills",
+          "Orangevale",
+          "Rancho Cordova"
+        ]
+      },
+      {
+        "city": "Sacramento",
+        "slug": "sacramento-ca",
+        "state": "CA",
+        "content": "As Sacramento's trusted irrigation specialists, Onyx Irrigation serves both historic neighborhoods and new developments across California's capital. The city's extended dry season requires irrigation systems that balance water efficiency with plant health. We design custom solutions for Sacramento's diverse landscapes - from drought-tolerant yards in Land Park to expansive lawns in newer suburbs. Our smart irrigation technology helps property owners reduce water usage while maintaining beautiful outdoor spaces.",
+        "localContext": "Sacramento features a mix of historic homes and modern developments across its urban and suburban areas.",
+        "nearbyAreas": [
+          "West Sacramento",
+          "Citrus Heights",
+          "Carmichael"
+        ]
+      },
+      {
+        "city": "Rocklin",
+        "slug": "rocklin-ca",
+        "state": "CA",
+        "content": "Rocklin's growing communities rely on Onyx Irrigation for dependable watering solutions. The city's hot summers demand irrigation systems that conserve water while protecting landscaping investments. We specialize in serving Rocklin's newer developments with efficient drip irrigation zones, smart controllers, and regular maintenance programs. Our local knowledge of Placer County's water regulations ensures compliant, high-performance systems for both residential and commercial properties.",
+        "localContext": "Rocklin offers family-friendly neighborhoods with excellent schools and community parks.",
+        "nearbyAreas": [
+          "Roseville",
+          "Lincoln",
+          "Loomis"
+        ]
+      },
+      {
+        "city": "El Dorado Hills",
+        "slug": "el-dorado-hills-ca",
+        "state": "CA",
+        "content": "El Dorado Hills' elevated landscape requires irrigation expertise that Onyx Irrigation delivers. The area's hot summers and sloping terrain demand customized watering solutions. We design systems that account for microclimates and water pressure variations in this foothill community. From smart controllers for vacation homes to drought-resistant landscaping in newer developments, we help El Dorado Hills residents maintain beautiful yards while conserving precious water resources.",
+        "localContext": "El Dorado Hills features upscale planned communities with scenic views of the Sierra foothills.",
+        "nearbyAreas": [
+          "Folsom",
+          "Cameron Park",
+          "Shingle Springs"
+        ]
+      },
+      {
+        "city": "Lincoln",
+        "slug": "lincoln-ca",
+        "state": "CA",
+        "content": "Lincoln's rapid growth makes professional irrigation services essential for maintaining landscape value. Onyx Irrigation helps this expanding community combat 100°F summers with water-efficient systems tailored to newer developments. We specialize in installing weather-based irrigation controllers and designing zones that accommodate Lincoln's clay-rich soils. Whether serving established neighborhoods or new construction, our solutions help property owners balance beauty and conservation.",
+        "localContext": "Lincoln combines rural charm with master-planned communities and agricultural heritage.",
+        "nearbyAreas": [
+          "Roseville",
+          "Rocklin",
+          "Wheatland"
+        ]
+      },
+      {
+        "city": "Rancho Cordova",
+        "slug": "rancho-cordova-ca",
+        "state": "CA",
+        "content": "Rancho Cordova's diverse properties benefit from Onyx Irrigation's localized expertise. The area's hot, dry climate challenges both residential and commercial landscapes. We design irrigation systems that account for Rancho Cordova's mix of older neighborhoods and new developments, focusing on water conservation without sacrificing curb appeal. Our maintenance programs help prevent costly repairs while keeping properties looking their best through Sacramento County's long dry season.",
+        "localContext": "Rancho Cordova offers affordable housing options alongside growing commercial districts.",
+        "nearbyAreas": [
+          "Sacramento",
+          "Gold River",
+          "Folsom"
+        ]
+      },
+      {
+        "city": "Citrus Heights",
+        "slug": "citrus-heights-ca",
+        "state": "CA",
+        "content": "Citrus Heights homeowners trust Onyx Irrigation for reliable watering solutions in Sacramento County's heat. We specialize in updating older irrigation systems to modern efficiency standards while serving the area's mix of established and newer properties. Our team understands Citrus Heights' water regulations and designs customized solutions for everything from small lots to expansive yards. Smart irrigation technology helps residents maintain green spaces while reducing water bills.",
+        "localContext": "Citrus Heights features affordable suburban living with convenient access to Sacramento amenities.",
+        "nearbyAreas": [
+          "Fair Oaks",
+          "Orangevale",
+          "Antelope"
+        ]
+      },
+      {
+        "city": "West Sacramento",
+        "slug": "west-sacramento-ca",
+        "state": "CA",
+        "content": "West Sacramento's riverside location presents unique irrigation challenges that Onyx Irrigation expertly addresses. The area's hot summers and varying soil conditions demand customized watering solutions. We design efficient systems for both older neighborhoods and new developments along the Sacramento River. From smart controllers to drought-resistant landscaping, our services help West Sacramento property owners maintain attractive outdoor spaces while conserving water.",
+        "localContext": "West Sacramento offers urban living with riverfront access and growing commercial districts.",
+        "nearbyAreas": [
+          "Sacramento",
+          "Davis",
+          "Woodland"
+        ]
+      },
+      {
+        "city": "Carmichael",
+        "slug": "carmichael-ca",
+        "state": "CA",
+        "content": "Carmichael's established neighborhoods benefit from Onyx Irrigation's expertise in updating older watering systems. The area's mature landscaping requires special attention during Sacramento County's hot, dry summers. We specialize in retrofitting outdated irrigation with water-efficient components while preserving the character of Carmichael's tree-lined streets. Our maintenance programs help prevent water waste while keeping gardens lush through the challenging dry season.",
+        "localContext": "Carmichael features mid-century homes with mature landscaping in a suburban setting.",
+        "nearbyAreas": [
+          "Fair Oaks",
+          "Citrus Heights",
+          "Arden-Arcade"
+        ]
+      },
+      {
+        "city": "Galt",
+        "slug": "galt-ca",
+        "state": "CA",
+        "content": "Galt's agricultural heritage informs Onyx Irrigation's approach to serving this growing community. We understand the irrigation needs of both rural properties and newer subdivisions in this southern Sacramento County city. Our systems account for Galt's hot summers and help property owners transition to water-efficient landscaping. Whether maintaining large lots or installing smart controllers in developing areas, we provide solutions that respect local water resources.",
+        "localContext": "Galt blends small-town charm with expanding residential developments.",
+        "nearbyAreas": [
+          "Elk Grove",
+          "Lodi",
+          "Herald"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "smart-irrigation-installation": "/images/service-smart-irrigation-installation.webp",
+      "drip-irrigation-systems": "/images/service-drip-irrigation-systems.webp",
+      "sprinkler-repair": "/images/service-sprinkler-repair.webp",
+      "backflow-prevention": "/images/service-backflow-prevention.webp",
+      "irrigation-system-design": "/images/service-irrigation-system-design.webp"
+    },
+    "servicesResponsive": {
+      "smart-irrigation-installation": {
+        "src": "/images/service-smart-irrigation-installation.webp",
+        "srcset": "/images/service-smart-irrigation-installation-400w.webp 400w, /images/service-smart-irrigation-installation-800w.webp 800w, /images/service-smart-irrigation-installation-1200w.webp 1200w, /images/service-smart-irrigation-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drip-irrigation-systems": {
+        "src": "/images/service-drip-irrigation-systems.webp",
+        "srcset": "/images/service-drip-irrigation-systems-400w.webp 400w, /images/service-drip-irrigation-systems-800w.webp 800w, /images/service-drip-irrigation-systems-1200w.webp 1200w, /images/service-drip-irrigation-systems.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sprinkler-repair": {
+        "src": "/images/service-sprinkler-repair.webp",
+        "srcset": "/images/service-sprinkler-repair-400w.webp 400w, /images/service-sprinkler-repair-800w.webp 800w, /images/service-sprinkler-repair-1200w.webp 1200w, /images/service-sprinkler-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "backflow-prevention": {
+        "src": "/images/service-backflow-prevention.webp",
+        "srcset": "/images/service-backflow-prevention-400w.webp 400w, /images/service-backflow-prevention-800w.webp 800w, /images/service-backflow-prevention-1200w.webp 1200w, /images/service-backflow-prevention.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "irrigation-system-design": {
+        "src": "/images/service-irrigation-system-design.webp",
+        "srcset": "/images/service-irrigation-system-design-400w.webp 400w, /images/service-irrigation-system-design-800w.webp 800w, /images/service-irrigation-system-design-1200w.webp 1200w, /images/service-irrigation-system-design.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
